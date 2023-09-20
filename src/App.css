@@ -10,7 +10,8 @@
 .phone {
   /* background-color: red; */
   position: relative;
-  background-color: #242424;
+  /* background-color: #242424; */
+  outline: 1px solid white;
   border-radius: var(--iphone-border-radius);
   aspect-ratio: 9/19.5;
   max-height: 90vh;
@@ -21,7 +22,7 @@
 }
 
 .input-area{
-  height: 8rem;
+  height: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,15 +44,17 @@
   aspect-ratio: 1;
   margin: 0.5rem;
   font-size: 2rem;
+  border: none;
 }
 
 .navbar {
+  padding-bottom: 1rem;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   /* background-color: red; */
-  height: 4rem;
+  height: 5rem;
   position: absolute;
   bottom: 0;
   border-radius: 0 0 var(--iphone-border-radius) var(--iphone-border-radius);
@@ -60,10 +63,23 @@
 
 .navbar > button {
   flex-basis: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
   height: 100%;
   margin: 0;
   /* background-color: inherit; */
   border: none;
   /* margin: 1rem; */
+}
+
+.erase-button {
+  background-color: inherit;
+  border: none;
+}
+
+.nav-icon {
+  font-size: 2rem;
+}
+
+.nav-text {
+  font-size: 0.7rem;
 }
